@@ -1,3 +1,5 @@
+> ⚠️ **Nota importante:** Mis pruebas locales las hice utilizando el puerto `5001`, ya que en macOS el puerto `5000` está reservado por defecto por el sistema operativo para el servicio nativo del "Receptor de AirPlay" (Control Center), lo que genera conflictos de red y deja las conexiones colgadas. De todas maneras, subo el proyecto respetando lo que se solicita en el PFO, dejando configurado el puerto en `5000`.
+
 # Chat Cliente-Servidor TCP con SQLite
 
 Sistema de mensajería modular en Python basado en sockets TCP y con persistencia de datos en SQLite.
